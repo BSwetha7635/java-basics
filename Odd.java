@@ -9,11 +9,14 @@ int odd =0;
 int even=0;
 for (int i=1;i<=n;i++)
      if(i%2==0){
-        System.out.println(odd+i);
+       even=even+i;
       }
      else{
-         System.out.println(even+i);
+        odd=odd+i;
       }
+      System.out.println("sum  of no:" +even);
+     System.out.println("sum  of no:" +odd)
+           
 sc.close();
 }
 }
